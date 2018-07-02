@@ -32,7 +32,6 @@ mes_data <- mes_data %>%
 library(ggplot2)
 ggplot(data = mes_data) + 
   geom_col(aes(colonne, indicateur))
-
 ```
 
 devient :
@@ -57,5 +56,19 @@ mes_data <- mes_data %>%
 # ggplot2 ----
 ggplot(data = mes_data) + 
   geom_col(aes(colonne, indicateur))
-
 ```
+
+Pour utiliser l'add-in, cliquer sur *Réorganise library()* dans le menu des add-ins de RStudio.
+
+
+
+# Géocoder à partir de coordonnées sur une carte
+
+Cet add-in permet de récupérer l'adresse d'un point en cliquant sur une carte :
+
+![](inst/img/geocode.png)
+
+Pour utiliser l'add-in, cliquer sur *Géocodage* dans le menu des add-ins de RStudio.
+
+
+

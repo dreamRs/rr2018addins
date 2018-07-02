@@ -36,7 +36,8 @@ reorder_library <- function() {
     location = c(1, 1), # début du script
     text = stringr::str_c(c(
       "\n# Packages ----",
-      script[indice_library]
+      script[indice_library],
+      "\n"
     ), collapse = "\n")
   )
 

@@ -2,3 +2,8 @@ Name: Réorganise library()
 Description: Positionne les appels à library() en début de script.
 Binding: reorder_library
 Interactive: false
+
+Name: Géocodage
+Description: Trouver l'adresse d'un point sur une carte.
+Binding: geocode_addin
+Interactive: true

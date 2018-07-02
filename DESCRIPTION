@@ -10,5 +10,9 @@ LazyData: true
 ByteCompile: true
 Imports: 
     rstudioapi,
-    stringr
+    stringr,
+    shiny,
+    miniUI,
+    leaflet,
+    ggmap
 RoxygenNote: 6.0.1
