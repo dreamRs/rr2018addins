@@ -1,0 +1,4 @@
+Name: Réorganise library()
+Description: Positionne les appels à library() en début de script.
+Binding: reorder_library
+Interactive: false
