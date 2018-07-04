@@ -1,5 +1,8 @@
 
-#' Réorganise les appels à \code{library}.
+#' @title Réorganise les appels à \code{library}.
+#'
+#' @description Place les appels à \code{library} disséminés dans un
+#'  script au début et les remplace par une section contenant le nom du package.
 #'
 #' @export
 #'

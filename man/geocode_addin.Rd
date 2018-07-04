@@ -7,7 +7,8 @@
 geocode_addin()
 }
 \description{
-Géocode un point placé sur une carte
+Cliquez sur la carte pour obtenir les coordonnées
+ de celui-ci ainsi que l'adresse correspondante.
 }
 \examples{
 \dontrun{

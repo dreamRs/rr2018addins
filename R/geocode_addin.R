@@ -1,12 +1,17 @@
 
-#' Géocode un point placé sur une carte
+#' @title Géocode un point placé sur une carte
+#'
+#' @description Cliquez sur la carte pour obtenir les coordonnées
+#'  de celui-ci ainsi que l'adresse correspondante.
 #'
 #' @export
 #'
 #' @importFrom ggmap revgeocode
-#' @importFrom leaflet leafletOutput renderLeaflet leaflet addTiles setView leafletProxy removeMarker addMarkers %>%
+#' @importFrom leaflet leafletOutput renderLeaflet leaflet addTiles
+#'  setView leafletProxy removeMarker addMarkers %>%
 #' @importFrom miniUI miniPage gadgetTitleBar miniContentPanel
-#' @importFrom shiny absolutePanel uiOutput reactiveValues observeEvent renderUI tags paneViewer runGadget stopApp
+#' @importFrom shiny absolutePanel uiOutput reactiveValues observeEvent
+#'  renderUI tags paneViewer runGadget stopApp
 #'
 #' @examples
 #' \dontrun{
